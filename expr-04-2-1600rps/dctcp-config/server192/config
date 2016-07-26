@@ -1,0 +1,8 @@
+server 10.67.192.206 50001
+server 10.67.20.206 50001
+server 10.67.30.206 50001
+server 10.67.40.206 50001
+req_size_dist CB_CDF
+fanout 1 100
+load 512Mbps
+num_reqs 10000
